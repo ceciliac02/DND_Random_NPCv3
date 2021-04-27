@@ -1,6 +1,7 @@
 import React from 'react';
 import {FetchRandomRace} from './App.js';
 import Menu from './Dropdown.js';
+import Field from './TextFields.js';
 
 const Layout = () => {
     const race = FetchRandomRace();
@@ -8,10 +9,15 @@ const Layout = () => {
         <div className="container">
             <div className="header">This is your NPC</div>
             <div className="innerCntr">
-                <div className="labels">
-                    <Menu />
+                <div className="finalCntr">
+                    <div className="labels">
+                        <Menu />
+                    </div>
+                    <div className="fieldContainer">
+                        <Field />
+                    </div>
                 </div>
-                <div className="field"></div>
+                
             </div>
             
         </div>

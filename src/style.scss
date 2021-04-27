@@ -25,13 +25,19 @@ $containerShadow: 0px 0px 30px $colorTwo;
         }
         .innerCntr {
             display: flex;
-            padding: 60px 10px;
+            height: 80vh;
+            justify-content: center;
+            align-items: center;
+                .finalCntr {
+                    display: flex;
+                    height: 700px;
+                    width: 700px;
+                    margin: 0px 30px;
+                    background-color: $containerColor;
+                    border-radius: 5px;
+                }
             .labels{
-                height: 700px;
-                width: 200px;
-                margin: 0px 30px;
-                background-color: $containerColor;
-                border-radius: 5px;
+                margin: 0px 10px;
                     .labelContainer {
                         display: flex;
                         flex-direction: column;
@@ -55,12 +61,18 @@ $containerShadow: 0px 0px 30px $colorTwo;
                         
                         
                     }
-
             }
-            .field {
-                height: 700px;
-                width: 80%;
-                background-color: $containerColor;
+            .fieldContainer {
+                width: 60%;
+                text-align: center;
+                .fields {
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 30px;
+                    .field {
+                        margin: 30px 0;
+                    }
+                }
             }
         }
         
