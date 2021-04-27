@@ -1,181 +1,185 @@
 [
     {
         "id": 0,
+        "name": "All Races"
+    },
+    {
+        "id": 1,
         "name": "Aarakocra",
         "hair": null
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Aasimar",
         "hair": true
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Bugbear",
         "hair": false
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Centaur",
         "hair": true
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Changeling",
         "hair": true
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Dragonborn",
         "hair": false
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Dwarf",
         "hair": true
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Elf",
         "hair": true
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Firbolg",
         "hair": true
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Genasi",
         "hair": true
     },
     {
-        "id": 10,
+        "id": 11,
         "name": "Gith",
         "hair": true
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "Gnome",
         "hair": true
     },
     {
-        "id": 12,
+        "id": 13,
         "name": "Goblin",
         "hair": false
     },
     {
-        "id": 13,
+        "id": 14,
         "name": "Goliath",
         "hair": true
     },
     {
-        "id": 14,
+        "id": 15,
         "name": "Half-Elf",
         "hair": true
     },
     {
-        "id": 15,
+        "id": 16,
         "name": "Half-Orc",
         "hair": true
     },
     {
-        "id": 15,
+        "id": 17,
         "name": "Halfling",
         "hair": true
     },
     {
-        "id": 16,
+        "id": 18,
         "name": "Hobgoblin",
         "hair": true
     },
     {
-        "id": 17,
+        "id": 19,
         "name": "Human",
         "hair": true
     },
     {
-        "id": 18,
+        "id": 20,
         "name": "Kalashtar",
         "hair": true
     },
     {
-        "id": 19,
+        "id": 21,
         "name": "Kenku",
         "hair": false
     },
     {
-        "id": 20,
+        "id": 22,
         "name": "Kobold",
         "hair": false
     },
     {
-        "id": 21,
+        "id": 23,
         "name": "Leonin",
         "hair": false
     },
     {
-        "id": 22,
+        "id": 24,
         "name": "Lizardfolk",
         "hair": false
     },
     {
-        "id": 23,
+        "id": 25,
         "name": "Loxodon",
         "hair": false
     },
     {
-        "id": 24,
+        "id": 26,
         "name": "Minotaur",
         "hair": false
     },
     {
-        "id": 25,
+        "id": 27,
         "name": "Orc",
         "hair": true
     },
     {
-        "id": 26,
+        "id": 28,
         "name": "Satyr",
         "hair": true
     },
     {
-        "id": 27,
+        "id": 29,
         "name": "Shifter",
         "hair": true
     },
     {
-        "id": 28,
+        "id": 30,
         "name": "Tabaxi",
         "hair": false
     },
     {
-        "id": 29,
+        "id": 31,
         "name": "Tiefling",
         "hair":true
     },
     {
-        "id": 30,
+        "id": 32,
         "name": "Triton",
         "hair": true
     },
     {
-        "id": 31,
+        "id": 33,
         "name": "Vedalken",
         "hair": false
     },
     {
-        "id": 32,
+        "id": 34,
         "name": "Verdan",
         "hair": true
     },
     {
-        "id": 33,
+        "id": 35,
         "name": "Warforged",
         "hair": false
     },
     {
-        "id": 34,
+        "id": 36,
         "name": "Yuan-Ti",
         "hair": true
     }

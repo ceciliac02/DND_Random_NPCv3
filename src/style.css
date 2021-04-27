@@ -7,8 +7,8 @@
 
 .background {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d36e6e), to(#5a0505));
-  background: linear-gradient(#d36e6e, #5a0505);
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ed3a9), to(#033fe4));
+  background: linear-gradient(#6ed3a9, #033fe4);
 }
 
 .background .container {
@@ -20,8 +20,8 @@
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  -webkit-box-shadow: 0px 0px 30px #5a0505;
-          box-shadow: 0px 0px 30px #5a0505;
+  -webkit-box-shadow: 0px 0px 30px #033fe4;
+          box-shadow: 0px 0px 30px #033fe4;
   padding: 10px;
 }
 
@@ -44,33 +44,32 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  overflow-y: auto;
-  height: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.background .container .innerCntr .labels .labelContainer .default {
+.background .container .innerCntr .labels .labelContainer .category {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 200px;
   font-size: 25px;
   padding: 10px;
+  margin: 9px 0px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 5px solid rgba(255, 255, 255, 0.3);
 }
 
-.background .container .innerCntr .labels .labelContainer #list {
-  display: none;
-  background-color: #d36e6e;
+.background .container .innerCntr .labels .labelContainer .category .options {
+  font-size: 20px;
+  background-color: #6ed3a9;
 }
 
-.background .container .innerCntr .labels .labelContainer #list.active {
-  display: block;
-  list-style: none;
-  scroll-padding: 0px;
+.background .container .innerCntr .labels .labelContainer #quirk, .background .container .innerCntr .labels .labelContainer #hair, .background .container .innerCntr .labels .labelContainer #hobby, .background .container .innerCntr .labels .labelContainer #trait, .background .container .innerCntr .labels .labelContainer #profession {
+  width: 170px;
 }
 
 .background .container .innerCntr .field {

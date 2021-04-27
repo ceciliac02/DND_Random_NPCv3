@@ -1,6 +1,6 @@
 $containerColor: rgba(255, 255, 255, 0.3);
-$colorOne: rgb(211, 110, 110);
-$colorTwo: rgb(90, 5, 5);
+$colorOne: rgb(110, 211, 169);
+$colorTwo: rgb(3, 63, 228);
 $containerShadow: 0px 0px 30px $colorTwo;
 
 * {
@@ -34,27 +34,26 @@ $containerShadow: 0px 0px 30px $colorTwo;
                 border-radius: 5px;
                     .labelContainer {
                         display: flex;
-                        justify-content: center;
-                        
-                        overflow-y: auto;
-                        height: 300px;
-                        .default {
+                        flex-direction: column;
+                        .category {
                             display: flex;
+                            width: 200px;
                             font-size: 25px;
                             padding: 10px;
+                            margin: 9px 0px;
                             background-color: $containerColor;
                             border-radius: 5px;
-                            border: 2px solid $containerColor;   
+                            border: 5px solid $containerColor;
+                            .options { 
+                                font-size: 20px;
+                                background-color: $colorOne;
+                            }
                         }
-                        #list{
-                            display: none;
-                            background-color: $colorOne;
-                        } 
-                        #list.active {
-                            display: block;
-                            list-style: none;
-                            scroll-padding: 0px;
+                        #quirk, #hair, #hobby, #trait, #profession {
+                            width: 170px;
                         }
+                        
+                        
                     }
 
             }
